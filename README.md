@@ -62,16 +62,16 @@ In addition to the requirements from **Normal Mode**:
 1. Add a list of ignored words to your program and do not count those words in the word
 frequencies. A suggested list:
 
-```
-a,able,about,across,after,all,almost,also,am,among,an,and,any,are,as,at,be,
-because,been,but,by,can,cannot,could,dear,did,do,does,either,else,ever,every,
-for,from,get,got,had,has,have,he,her,hers,him,his,how,however,i,if,in,into,is,
-it,its,just,least,let,like,likely,may,me,might,most,must,my,neither,no,nor,
-not,of,off,often,on,only,or,other,our,own,rather,said,say,says,she,should,
-since,so,some,than,that,the,their,them,then,there,these,they,this,tis,to,too,
-twas,us,wants,was,we,were,what,when,where,which,while,who,whom,why,will,with,
-would,yet,you,your
-```
+ ```
+ a,able,about,across,after,all,almost,also,am,among,an,and,any,are,as,at,be,
+ because,been,but,by,can,cannot,could,dear,did,do,does,either,else,ever,every,
+ for,from,get,got,had,has,have,he,her,hers,him,his,how,however,i,if,in,into,is,
+ it,its,just,least,let,like,likely,may,me,might,most,must,my,neither,no,nor,
+ not,of,off,often,on,only,or,other,our,own,rather,said,say,says,she,should,
+ since,so,some,than,that,the,their,them,then,there,these,they,this,tis,to,too,
+ twas,us,wants,was,we,were,what,when,where,which,while,who,whom,why,will,with,
+ would,yet,you,your
+ ```
 
 2. Change your program so that you have to give it the name of the file to read
 on the command line, like so: `python word_frequency.py sample.txt`.
@@ -79,17 +79,17 @@ on the command line, like so: `python word_frequency.py sample.txt`.
 3. Output the words to the console in a simple text-based histogram format,
 like so:
 
-```
-peanut    #################################
-racket    ###############################
-and       #############################
-common    #####################
-religion  ###############
-fate      ##############
-algorithm ##########
-the       #########
-...
-```
+ ```
+ peanut    #################################
+ racket    ###############################
+ and       #############################
+ common    #####################
+ religion  ###############
+ fate      ##############
+ algorithm ##########
+ the       #########
+ ...
+ ```
 
 4. Normalize the histogram so that you never have more than 50 `#` marks.
 You'll have to scale all the lines by some divisor if you have more than 50 of
